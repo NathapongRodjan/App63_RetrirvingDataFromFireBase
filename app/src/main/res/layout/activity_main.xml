@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nathapong.app63_retrirvingdatafromfirebase.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="30dp">
+
+            <EditText
+                android:id="@+id/edtKey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Key..."
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Value..."
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/btnSendDataToServer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send Data To Server" />
+
+            <TextView
+                android:id="@+id/txtValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnGetDataFromServer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get Integer Data From Server" />
+
+            <TextView
+                android:id="@+id/txtChildValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnGetChildValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get Child Value" />
+
+            <TextView
+                android:id="@+id/txtComputerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnGetComputerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get Computer Name" />
+
+            <TextView
+                android:id="@+id/txtMobileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnGetMobileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get Mobile Name" />
+
+            <TextView
+                android:id="@+id/txtMyValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnMyValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get My Value" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
